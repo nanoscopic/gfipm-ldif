@@ -1,0 +1,28 @@
+dn: cn=schema
+    objectClass: top
+    objectClass: ldapSubentry
+    objectClass: subschema
+    cn: schema
+    changetype: modify
+    add: attributeTypes
+    add: objectclassesattributeTypes: ( 2.16.840.1.113883.3.4327.1.2.18.1.4 NAME 'gfipm-user-28CFRPrivilegeIndicator' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.3.1 NAME 'gfipm-user-GivenName' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.1 NAME 'gfipm-user-FederationId' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.10.2 NAME 'gfipm-user-ElectronicAuthenticationAssuranceLevel' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.10.1 NAME 'gfipm-user-IdentityProofingAssuranceLevelCode' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.5.1 NAME 'gfipm-user-StreetAddressText' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.4.2 NAME 'gfipm-user-TelephoneNumber' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.2 NAME 'gfipm-user-LocalId' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.4.1 NAME 'gfipm-user-EmailAddressText' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.14.1 NAME 'gfipm-user-EmployerName' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.9.1 NAME 'gfipm-user-IdentityProviderId' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.3.3 NAME 'gfipm-user-SurName' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.18.1.1 NAME 'gfipm-user-SwornLawEnforcementOfficerIndicator' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.5.1 NAME 'gfipm-user-StreetAddressText' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.5.3 NAME 'gfipm-user-CityName' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.5.5 NAME 'gfipm-user-StateCode' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+attributeTypes: ( 2.16.840.1.113883.3.4327.1.2.5.6 NAME 'gfipm-user-PostalCodeText' EQUALITY caseIgnoreMatch ORDERING caseIgnoreOrderingMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 USAGE userApplications )
+objectClasses: ( 2.16.840.1.113883.3.4327.1.2.1.1.241 NAME 'optional-assertions-bobsorg' AUXILIARY MAY ( gfipm-user-IdentityProviderId $ gfipm-user-FederationId $ gfipm-user-EmployerName $ gfipm-user-GivenName $ gfipm-user-SurName ) )
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+    modifyTimestamp: 20140227220422Z
+    

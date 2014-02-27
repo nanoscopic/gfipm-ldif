@@ -1,0 +1,17 @@
+gfipm:2.0:user:28CFRPrivilegeIndicator=gfipm-user-28CFRPrivilegeIndicator
+gfipm:2.0:user:GivenName=gfipm-user-GivenName
+gfipm:2.0:user:FederationId=gfipm-user-FederationId
+gfipm:2.0:user:ElectronicAuthenticationAssuranceLevel=gfipm-user-ElectronicAuthenticationAssuranceLevel
+gfipm:2.0:user:IdentityProofingAssuranceLevelCode=gfipm-user-IdentityProofingAssuranceLevelCode
+gfipm:2.0:user:StreetAddressText=gfipm-user-StreetAddressText
+gfipm:2.0:user:TelephoneNumber=gfipm-user-TelephoneNumber
+gfipm:2.0:user:LocalId=gfipm-user-LocalId
+gfipm:2.0:user:EmailAddressText=gfipm-user-EmailAddressText
+gfipm:2.0:user:EmployerName=gfipm-user-EmployerName
+gfipm:2.0:user:IdentityProviderId=gfipm-user-IdentityProviderId
+gfipm:2.0:user:SurName=gfipm-user-SurName
+gfipm:2.0:user:SwornLawEnforcementOfficerIndicator=gfipm-user-SwornLawEnforcementOfficerIndicator
+gfipm:2.0:user:StreetAddressText=gfipm-user-StreetAddressText
+gfipm:2.0:user:CityName=gfipm-user-CityName
+gfipm:2.0:user:StateCode=gfipm-user-StateCode
+gfipm:2.0:user:PostalCodeText=gfipm-user-PostalCodeText
