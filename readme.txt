@@ -32,4 +32,5 @@ Todo / Ideas:
 - Make a database of commonly used schemas somewhere, and have the script use it remotely, so that it can cover more things besides the GFIPM standard.
 
 Version History:
+1.01 - Fix git settings to get rid of 'invalid-email-address' message on github
 1.0 - Initial release on github
